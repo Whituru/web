@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>신상 정보 입력받기</title>
+		<link rel="stylesheet" href="외부 스타일 시트 파일 경로">
+		<style>
+		h1 {
+		padding:10px;
+		background-color: #222;
+		color: #fff;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>
+		<p>
+			신상정보를 입력해주세요
+		</p>	
+		</h1>
+		<form>
+			<fieldset>
+				<legend>개인정보 입력</legend>
+				<label>성: <input type="text" id="user_f_name" size="10" autofocus required></label>
+				<label>이름: <input type="text" id="user_l_name" size="30" placeholder="영문이름을 입력해주세요"></label>
+				
+				<ul>	
+					<label>가족의 수 <input type="range" min="0" max="10" value = "5"</label>
+					<label>생년월일 <input type="date"></label>
+				</ul>
+					
+					
+			</fieldset>
+			<fieldset>
+					<legend>
+						이벤트와 새로운 소식
+					</legend>
+					<input type="radio" name = "mailing" id="mailing_y" checked>
+					<label for="mailing_y">메일 수신</label>
+					<input type="radio" name = "mailing" id="mailing_n">
+					<label for "mailing_n">메일 수신 안 함</label>
+				</fieldset>	
+			<fieldset>
+				<legend>학력</legend>
+				<label>초등학교: <input type="text" id="user_e_school" size="10"></label>
+			</fieldset>
+		</form>
+			<br></br>
+		<label for="memo">메모</label> <br></br>
+		<textarea id="memo" cols="40" rows="4"></textarea>
+		
+	</body>
+</html>
