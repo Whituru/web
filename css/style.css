@@ -1,0 +1,21 @@
+
+/*font 정의 */
+@font-face {
+	font-family: "AppleR";
+	src: url("../font/AppleSDGothicNeoR.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "AppleH";
+	src: url("../font/AppleSDGothicNeoH.ttf") format('truetype');
+}
+	
+
+/*style 정의*/
+.nav {
+	font-family: "AppleH";
+	color: black;
+}
+
+
+/*tag 정의*/
