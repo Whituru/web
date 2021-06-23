@@ -19,7 +19,7 @@ header {
 .nav-container {
 	display: flex;
 	flex-direction: row;
-	
+	list-style-type: none;
 	
 	box-sizing: border-box;
 	width: 100%;
@@ -28,7 +28,7 @@ header {
 	margin: 0;
 	padding: 20;
 	background-color:#00ff0000;
-	list-style-type: none;
+	
 	
 	
 	
